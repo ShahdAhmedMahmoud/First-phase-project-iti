@@ -5,11 +5,11 @@
       "link": "#"
     },
     "links": [
-      { "label": "Home", "href": "../index.html" },
-      { "label": "What We Do", "href": "../aboutus.html" },
-      { "label": "Services", "href": "../services.html" },
-      { "label": "Portfolio", "href": "../profile feed.html" },
-      { "label": "Contact Us", "href": "../contact.html" }
+      { "label": "Home", "href": "index.html" },
+      { "label": "What We Do", "href": "aboutus.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Portfolio", "href": "profile feed.html" },
+      { "label": "Contact Us", "href": "contact.html" }
     ],
     "bottomInfo": {
       "address": "121 W Lexington Dr, Glendale",

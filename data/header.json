@@ -10,7 +10,7 @@
     "menuButton": {
       "id": "menu-btn",
       "icon": "fa-solid fa-bars",
-      "link": "../menu.html"
+      "link": "menu.html"
     }
   }
 }
