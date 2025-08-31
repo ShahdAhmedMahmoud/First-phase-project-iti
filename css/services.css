@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+  
+  
+}
+body{
+    font-family: 'Truculenta', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+mt-40{
+    margin-top: 40px;
+}
+.banner {
+    position: relative;
+    height: 60vh;
+    background: url('../images/services/c3ef59cd39b91ba701a0d509fe760cc1c5ed44ca.jpg')   ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+.green-color{
+    color:#90b300;
+}

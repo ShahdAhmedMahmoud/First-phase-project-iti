@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+</head>
+<body>
+    <div id="header"></div>
+    <header class="header" >
+        <div class="header-text w-full h-full flex justify-center items-center">
+            <h1 id="tittle" class="text-white font-medium text-5xl"></h1>
+        </div>
+    </header>
+
+    <section class="mt-8 flex flex-col items-center">
+         <img id="company-icon" class="w-24 h-24 my-4" src="" alt="icon">
+         <hr class="w-1/4 border border-black">
+         <p id="desc1" class="text-center font-semibold text-lg w-3/4 my-7"></p>
+         <p id="desc2" class="text-center font-semibold text-lg w-3/4 mb-10"></p>
+    </section>
+
+    <div class="container mx-auto my-10 px-5 sm:px-0">
+        <div id="images" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+    </div>
+
+    <section class="container mx-auto ">
+        <div class="flex flex-col  items-center my-10 py-10">
+            <p class="text-center text-5xl font-medium border-b-2 border-black pb-2">Building Amenities</p>
+        </div>
+
+        <div id="amenities" class="amenities-grid gap-5 mb-10 pb-10"></div>
+    </section>
+
+
+
+    <!--  ===============  Footer  =============== -->   
+
+    <div id="footer"></div>
+
+    <!--  ===============  Scripts  =============== -->
+
+    <script src="js/portfolio.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
